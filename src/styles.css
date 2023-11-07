@@ -8,6 +8,9 @@ header {
   width: 100%;
   background-color: #dbc99fe7;
 }
+footer {
+  text-align: center;
+}
 .container {
   max-width: 1400px;
   margin: auto;
@@ -19,4 +22,28 @@ header {
 }
 .hero-text ul {
   list-style: none;
+}
+.footer-section {
+  margin-top: 5%;
+  background-color: #dbc99fe7;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  padding: 60px;
+}
+.footer-section i {
+  color: black;
+}
+.footer-section i:hover {
+  text-decoration: underline;
+}
+.footer-section a {
+  color: black;
+  text-decoration: none;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.credentials {
+  background-color: rgba(255, 255, 255, 0.895);
 }
