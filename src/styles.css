@@ -11,6 +11,15 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgba(255, 255, 255, 0.91);
+  margin-top: 9%;
+  margin-bottom: 9%;
+  padding: 25px 0;
+}
+
 footer {
   text-align: center;
 }
@@ -48,11 +57,30 @@ h3 {
   border: 1px solid black;
   padding: 10px;
 }
+.main-text h4 {
+  font-family: "Satisfy", cursive;
+  color: rgba(0, 0, 0, 0.574);
+  font-stretch: ultra-expanded;
+  font-size: 30px;
+}
+.main-text h3 {
+  font-size: 35px;
+}
+.main-text p {
+  font-family: "Edu TAS Beginner", cursive;
+  font-stretch: expanded;
+  font-size: 25px;
+  line-height: 50px;
+}
+.main-img img {
+  max-width: 500px;
+}
 .footer-section {
   margin-top: 5%;
   background-color: #dbc99fe7;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
   font-size: 25px;
   font-family: "Satisfy", cursive;
   padding: 60px;
@@ -79,6 +107,29 @@ h3 {
     text-align: center;
     padding: 10px;
     padding-top: 30px;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+  .main-text h4 {
+    font-size: 25px;
+  }
+  .main-text h3 {
+    font-size: 30px;
+  }
+  .main-text p {
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-img img {
+    max-width: 400px;
+  }
+  .footer-section {
+    grid-template-columns: 1fr;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 10px;
   }
   .credentials {
     font-size: 12px;
