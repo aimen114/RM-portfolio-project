@@ -125,7 +125,9 @@ h3 {
   grid-gap: 15px;
   background-color: #f7f7f7cd;
 }
-
+.instagram-embeds blockquote {
+  width: 100%;
+}
 .footer-section {
   margin-top: 5%;
   background-color: #dbc99fe7;
