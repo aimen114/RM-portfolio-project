@@ -128,6 +128,7 @@ h3 {
 .instagram-embeds blockquote {
   width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 .footer-section {
   margin-top: 5%;
